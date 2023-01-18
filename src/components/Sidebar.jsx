@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { IoIosApps } from 'react-icons/io';
+import { DiAtom } from 'react-icons/di';
 import { MdOutlineCancel } from 'react-icons/md';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 import { links } from '../data/dummy';
@@ -23,7 +23,7 @@ const Sidebar = () => {
               to="/"
               onClick={() => setActiveMenu(false)}
               className="items-center gap-3 ml-3 mt-4 flex text-xl font-extrabold tracking-tight dark:text-white text-slate-900">
-              <IoIosApps /> <span>MyDash</span>
+              <DiAtom /> <span>IBoard</span>
             </Link>
             <TooltipComponent content="Menu" position="BottomCenter">
               <button
