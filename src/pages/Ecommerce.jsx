@@ -51,7 +51,7 @@ const Ecommerce = () => {
             </button>
           </div>
           <div className="mt-6">
-            <Button color="white" bgColor="blue" text="Download" borderRadius="10px" />
+            <Button color="white" bgColor={currentColor} text="Download" borderRadius="10px" />
           </div>
         </div>
         <div className="flex m-3 flex-wrap justify-center gap-1 items-center">
@@ -123,7 +123,12 @@ const Ecommerce = () => {
                 />
               </div>
               <div className="mt-10">
-                <Button color="white" bgColor="blue" text="Download Report" borderRadius="10px" />
+                <Button
+                  color="white"
+                  bgColor={currentColor}
+                  text="Download Report"
+                  borderRadius="10px"
+                />
               </div>
             </div>
             <div>
